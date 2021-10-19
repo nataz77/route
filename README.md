@@ -20,3 +20,9 @@ This is a very simple URL shortening services running on Cloudflare Workers usin
 
 ## URL management
 In the Cloudflare Workers dashboard, open the KV namespace you just created and for each URL you want to be shortened add an entry in the table (eg. if you insert `hello` as the key and `https://example.com` as the value, calling `https://WORKERENDPOINT/hello` will redirect you to `https://example.com`)
+
+## Why Cloudflare Workers?
+- It's easy to setup
+- The free tier has 100k requests per day (which in my opinion is a lot!)
+- Runs on the global Cloudflare Network
+- Took 12 lines of code to create this service (could take even less) 
