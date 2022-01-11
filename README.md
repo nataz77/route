@@ -23,6 +23,6 @@ In the Cloudflare Workers dashboard, open the KV namespace you just created and 
 
 ## Why Cloudflare Workers?
 - It's easy to setup
-- The free tier has 100k requests per day (which in my opinion is a lot!)
+- The free tier has 100k requests per day (which is a lot!)
 - Runs on the global Cloudflare Network
-- Took 12 lines of code to create this service (could take even less) 
+- Took 12 lines of code to create this service (could take even less)
