@@ -4,6 +4,7 @@ addEventListener('fetch', event => {
 
 
 async function handleRequest(request) {
+  // the route var may seem undefined, but it's binded from the Cloudflare KV namespace
   var redirect = await route.get(request.url.replace(/^(?:\/\/|[^/]+)*\//, ''))
   var head = new Headers();
   head.append("Location", redirect);
